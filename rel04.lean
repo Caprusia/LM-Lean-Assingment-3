@@ -12,7 +12,10 @@ theorem rel04 (irrefl : ∀ x, ¬ R x x)
        intro hrba
        apply irrefl
        apply trans
+       apply hrab
+       exact hrba
+       
 
-  sorry
+
 
 end rel04
